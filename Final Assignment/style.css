@@ -1,0 +1,383 @@
+.nav {
+    background-color: #212121;
+}
+
+.navbar-expand-lg a:hover {
+    border-bottom: 2px solid #212121;
+}
+
+.navbar-expand-lg a:active {
+    border-bottom: 2px solid #212121;
+}
+
+.header-container {
+    background-color: #212121;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.header-container img{
+    margin: 0 10px;
+}
+
+.navbar-expand-lg {
+    font-size: 18px;
+}
+
+.slider-btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-style: none;
+    background-color: #76FF03;
+}
+
+.advantages-container {
+    text-align: center;
+    background-color: #E0E0E0;
+}
+
+.advantages-container h1 {
+    text-transform: uppercase;
+    /* margin: 20px; */
+    padding: 20px;
+}
+
+.advantages-container h1 span {
+    color: #76FF03;
+}
+
+.advantages-container>p {
+    text-align: center;
+    align-items: center;
+    width: 450px;
+    margin: auto;
+}
+
+.innovative-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E0E0E0;
+    flex-wrap: wrap;
+}
+
+.innovative-container div {
+    margin: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.paragraph {
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.paragraph1 {
+    font-size: xx-small;
+}
+
+.services-container h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.services-container h1 span {
+    color: #76FF03;
+}
+
+.services-para {
+    text-align: center;
+    width: 450px;
+    margin: auto;
+}
+
+.services-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.services-content div {
+    width: 300px;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #E0E0E0;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.services-content h6 {
+    text-transform: uppercase;
+}
+
+.services-content p {
+    font-size: xx-small;
+}
+
+.services-content img {
+    margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .advantages-container>p, .services-para {
+        width: auto;
+        margin: 10px;
+    }
+}
+
+.about-container {
+    position: relative;
+}
+
+.about-container h1 {
+    font-size: 4vw;
+    position: absolute;
+    bottom: 85%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+}
+
+.about-container h1 span {
+    color: #76FF03;
+}
+
+.about-container p {
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.about-container button {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #76FF03;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.portfolio-container {
+    background-color: #212121;
+    text-align: center;
+    color: white;
+}
+
+.portfolio-container h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+
+.portfolio-container span {
+    color: #76FF03;
+}
+
+.portfolio-container p {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.portfolio-container img {
+    margin: 20px;
+}
+
+.process-container h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+}
+
+.process-container span {
+    color: #76FF03;
+}
+
+.process-container>p {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.process-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.process-content img {
+    margin-top: 30px;
+}
+
+.process-content p {
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.process-image {
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+}
+
+.reviews-container {
+    background-color: #FAFAFA;
+}
+
+.reviews-container>p {
+    text-align: center;
+    font-size: 1.8vh;
+    padding: 0 10px;
+}
+
+.reviews-container h1 {
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+}
+
+.reviews-container span {
+    color: #76FF03;
+}
+
+.reviews-content div {
+    width: 37 0px;
+}
+
+.reviews-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 20px;
+    flex-wrap: wrap;
+}
+
+.reviews-content1 {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.reviews-content1 p {
+    margin: 10px 10px;
+    font-size: 1.8vh;
+}
+
+.reviews-content1 h5 {
+    margin: 10px 10px;
+    text-transform: uppercase;
+}
+
+.border-container {
+    border-left: 1px solid grey;
+}
+
+.project-container {
+    background-color: #8bee3a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.project-container h1 {
+    text-transform: uppercase;
+}
+
+.project-container p {
+    font-size: small;
+    width: 70%;
+    margin: auto;
+}
+
+.project-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-content input {
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.project-container button {
+    margin: 15px;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.contact-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-container h1 {
+    text-transform: uppercase;
+}
+
+.contact-para {
+    font-size: 2vh;
+    margin: auto;
+    opacity: 0.4;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.contact-container h1 span {
+    color: #8bee3a;
+}
+
+.contact-container div>p {
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #8bee3a;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.footer div {
+    width: 300px;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.footer p {
+    padding: 20px 0;
+    font-size: 1.8vh;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer li a {
+    text-decoration: underline;
+    color: white;
+}

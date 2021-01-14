@@ -1,0 +1,31 @@
+.main-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards {
+    margin: 20px;
+    width: 300px;
+    height: 370px;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+}
+
+.cards img {
+    border-radius: 5px 5px 0 0;
+}
+
+.cards h3, .cards p, .cards button {
+    margin: 10px 20px;
+}
+
+.cards button {
+    padding: 10px 20px;
+    background-color: #1976D2;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 1px;
+}
