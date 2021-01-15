@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    border-color: cornsilk;
+    border-color: #000000;
+}
+
+.table2 {
+    margin: auto;
+}
+
+td:hover {
+    zoom: 2;
+    border-width: 3px;
+}
+
+.golden {
+    background-color: #F06292;
+}
+
+.row1 {
+    background-color: #F44336;
+    color: white;
+}
+
+.row2 {
+    background-color: #880E4F;
+    color: white
+}
+
+.row3 {
+    background-color: #E1BEE7;
+}
+
+.row4 {
+    background-color: #DCEDC8;
+}
+
+.row5 {
+    background-color: #81C784;
+}
+
+.row6 {
+    background-color: #546E7A;
+    color: white
+}
+
+.row7 {
+    background-color: #B3E5FC;
+}

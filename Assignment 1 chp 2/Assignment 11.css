@@ -357,6 +357,8 @@
     background-color: #8bee3a;
     color: white;
     flex-wrap: wrap;
+    color: #212121;
+
 }
 
 .footer div {
@@ -365,7 +367,6 @@
 
 .footer h3 {
     text-transform: uppercase;
-    color: #212121;
 }
 
 .footer p {
@@ -380,4 +381,5 @@
 .footer li a {
     text-decoration: underline;
     color: white;
+    color: #212121;
 }
